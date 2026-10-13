@@ -19,3 +19,8 @@ make        # kompajlira u build/konvertor
 make run    # kompajlira i pokrece
 make clean  # brise build folder
 ```
+
+
+## Avtor
+
+Radovan Bralović, RVO, 1. vaja
