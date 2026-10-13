@@ -1,0 +1,11 @@
+# Build izlaz
+build/
+*.o
+*.out
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Lokalna podesavanja (tajne ne idu u repo)
+config.ini
