@@ -15,3 +15,11 @@ double km_v_milje(double km) {
 double milje_v_km(double mi) {
     return mi * 1.609344;
 }
+
+double kg_v_funte(double kg) {
+    return kg / 0.45359237;
+}
+
+double funte_v_kg(double lb) {
+    return lb * 0.45359237;
+}
