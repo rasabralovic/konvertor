@@ -7,3 +7,11 @@ double celzijus_u_farenhajt(double c) {
 double farenhajt_u_celzijus(double f) {
     return (f - 32.0) * 5.0 / 9.0;
 }
+
+double kg_v_funte(double kg) {
+    return kg / 0.45359237;
+}
+
+double funte_v_kg(double lb) {
+    return lb * 0.45359237;
+}
