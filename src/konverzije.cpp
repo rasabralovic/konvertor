@@ -23,3 +23,11 @@ double kg_v_funte(double kg) {
 double funte_v_kg(double lb) {
     return lb * 0.45359237;
 }
+
+double litri_v_galone(double l) {
+    return l / 3.785411784;
+}
+
+double galone_v_litre(double gal) {
+    return gal * 3.785411784;
+}
