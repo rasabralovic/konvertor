@@ -13,7 +13,7 @@ int main() {
         std::cout << "5) Kilogrami -> funti\n";
         std::cout << "6) Funti -> kilogrami\n";
 
-        std::cout << "0) Ihod\n";
+        std::cout << "0) Izhod\n";
         std::cout << "Izbira: ";
 
         int izbira;
