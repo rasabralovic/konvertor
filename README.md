@@ -9,6 +9,7 @@ Projekat sluzi kao vezba za rad sa Git-om.
 - Kilometri ↔ milje
 - Kilogrami ↔ funti
 - Litri ↔ galone
+- Hitrost: km/h ↔ mph
 
 ## Zahtevi
 
