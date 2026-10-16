@@ -39,7 +39,7 @@ int main() {
             case 7: std::cout << vrednost << " L = " << litri_v_galone(vrednost) << " gal\n"; break;
             case 8: std::cout << vrednost << " gal = " << galone_v_litre(vrednost) << " L\n"; break;
 
-            default: std::cout << "Nepoznata opcija.\n";
+            default: std::cout << "Neznana možnost.\n";
         }
     }
     return 0;
