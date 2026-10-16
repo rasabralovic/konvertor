@@ -6,6 +6,9 @@ Projekat sluzi kao vezba za rad sa Git-om.
 ## Podrzane konverzije
 
 - Celzijus ↔ Farenhajt
+- Kilometri ↔ milje
+- Kilogrami ↔ funti
+- Litri ↔ galone
 
 ## Zahtevi
 

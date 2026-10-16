@@ -13,4 +13,8 @@ double milje_v_km(double mi);
 double kg_v_funte(double kg);
 double funte_v_kg(double lb);
 
+// Prostornina
+double litri_v_galone(double l);
+double galone_v_litre(double gal);
+
 #endif

@@ -13,6 +13,9 @@ int main() {
         std::cout << "5) Kilogrami -> funti\n";
         std::cout << "6) Funti -> kilogrami\n";
 
+        std::cout << "7) Litri -> galone\n";
+        std::cout << "8) Galone -> litri\n";
+
         std::cout << "0) Izhod\n";
         std::cout << "Izbira: ";
 
@@ -32,6 +35,9 @@ int main() {
 
             case 5: std::cout << vrednost << " kg = " << kg_v_funte(vrednost) << " lb\n"; break;
             case 6: std::cout << vrednost << " lb = " << funte_v_kg(vrednost) << " kg\n"; break;
+
+            case 7: std::cout << vrednost << " L = " << litri_v_galone(vrednost) << " gal\n"; break;
+            case 8: std::cout << vrednost << " gal = " << galone_v_litre(vrednost) << " L\n"; break;
 
             default: std::cout << "Nepoznata opcija.\n";
         }

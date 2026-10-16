@@ -1,5 +1,7 @@
 #include "konverzije.h"
 
+constexpr double LITROV_NA_GALONO = 3.785411784;
+
 double celzijus_u_farenhajt(double c) {
     return c * 9.0 / 5.0 + 32.0;
 }
@@ -22,4 +24,12 @@ double kg_v_funte(double kg) {
 
 double funte_v_kg(double lb) {
     return lb * 0.45359237;
+}
+
+double litri_v_galone(double l) {
+    return l / LITROV_NA_GALONO;
+}
+
+double galone_v_litre(double gal) {
+    return gal * LITROV_NA_GALONO;
 }
