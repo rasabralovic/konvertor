@@ -17,4 +17,8 @@ double funte_v_kg(double lb);
 double litri_v_galone(double l);
 double galone_v_litre(double gal);
 
+// Hitrost
+double kmh_v_mph(double kmh);
+double mph_v_kmh(double mph);
+
 #endif

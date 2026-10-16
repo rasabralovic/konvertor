@@ -33,3 +33,11 @@ double litri_v_galone(double l) {
 double galone_v_litre(double gal) {
     return gal * LITROV_NA_GALONO;
 }
+
+double kmh_v_mph(double kmh) {
+    return kmh / 1.609344;
+}
+
+double mph_v_kmh(double mph) {
+    return mph * 1.609344;
+}
