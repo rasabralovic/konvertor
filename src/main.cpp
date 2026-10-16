@@ -16,6 +16,9 @@ int main() {
         std::cout << "7) Litri -> galone\n";
         std::cout << "8) Galone -> litri\n";
 
+        std::cout << "9) Km/h -> mph\n";
+        std::cout << "10) Mph -> km/h\n";
+
         std::cout << "0) Izhod\n";
         std::cout << "Izbira: ";
 
@@ -38,6 +41,9 @@ int main() {
 
             case 7: std::cout << vrednost << " L = " << litri_v_galone(vrednost) << " gal\n"; break;
             case 8: std::cout << vrednost << " gal = " << galone_v_litre(vrednost) << " L\n"; break;
+            
+            case 9:  std::cout << vrednost << " km/h = " << kmh_v_mph(vrednost) << " mph\n"; break;
+            case 10: std::cout << vrednost << " mph = " << mph_v_kmh(vrednost) << " km/h\n"; break;
 
             default: std::cout << "Neznana možnost.\n";
         }
