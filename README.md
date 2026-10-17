@@ -28,3 +28,11 @@ make clean  # brise build folder
 ## Avtor
 
 Radovan Bralović, RVO, 1. vaja
+
+
+## Struktura projekta
+
+- `src/main.cpp` – meni in vnos uporabnika
+- `src/konverzije.h` – deklaracije funkcij
+- `src/konverzije.cpp` – implementacija pretvorb
+- `Makefile` – prevajanje in zagon programa
