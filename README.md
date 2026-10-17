@@ -46,3 +46,10 @@ Radovan Bralović, RVO, 1. vaja
 ## Različice
 
 Projekt uporablja semantično označevanje različic (MAJOR.MINOR.PATCH). Seznam izdaj je na strani Releases.
+
+## Pravila commit sporočil
+
+- `feat:` nova funkcionalnost
+- `fix:` popravek napake
+- `docs:` dokumentacija
+- `refactor:` sprememba kode brez spremembe delovanja
