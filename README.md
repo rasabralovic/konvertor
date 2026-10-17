@@ -53,3 +53,23 @@ Projekt uporablja semantično označevanje različic (MAJOR.MINOR.PATCH). Seznam
 - `fix:` popravek napake
 - `docs:` dokumentacija
 - `refactor:` sprememba kode brez spremembe delovanja
+
+## Kloniranje
+
+Projekt uporablja git submodule, zato kloniraj z:
+
+```bash
+git clone --recurse-submodules git@github.com:rasabralovic/konvertor.git
+```
+
+Če si repozitorij že kloniral brez modulov:
+
+```bash
+git submodule update --init --recursive
+```
+
+## Testi
+
+```bash
+make test
+```
