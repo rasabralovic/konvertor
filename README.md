@@ -36,3 +36,9 @@ Radovan Bralović, RVO, 1. vaja
 - `src/konverzije.h` – deklaracije funkcij
 - `src/konverzije.cpp` – implementacija pretvorb
 - `Makefile` – prevajanje in zagon programa
+
+`## Prispevanje
+
+1. Ustvari novo vejo iz `main` (npr. `feature/ime`).
+2. Commit sporočila piši po pravilih Conventional Commits.
+3. Odpri pull request; združitev je možna šele po razrešenih komentarjih.
