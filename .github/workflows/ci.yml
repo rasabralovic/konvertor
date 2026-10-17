@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  gradnja-in-testi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prenos kode (z moduli)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Prevajanje
+        run: make
+
+      - name: Zagon testov
+        run: make test
