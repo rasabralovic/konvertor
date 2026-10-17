@@ -10,6 +10,7 @@ Projekat sluzi kao vezba za rad sa Git-om.
 - Kilogrami ↔ funti
 - Litri ↔ galone
 - Hitrost: km/h ↔ mph
+- Valute: EUR ↔ USD
 
 ## Zahtevi
 
